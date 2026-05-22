@@ -90,4 +90,4 @@ npm run build
 
 ## Autor
 
-Desenvolvido por Matheus Silva.
+Desenvolvido por Matheus Alberto.

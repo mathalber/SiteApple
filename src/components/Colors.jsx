@@ -93,12 +93,12 @@ function Colors() {
               className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800"
             >
               <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-2xl font-bold mb-3">{model.name}</h3>
-              <p className="text-gray-400 mb-4">{model.screen}</p>
+              <h3 className="text-2xl font-bold mb-3">{model.id}</h3>
+              <p className="text-gray-400 mb-4">● {model.screen}</p>
               <ul className="space-y-2 text-gray-300">
-                <li>{model.storage}</li>
-                <li>{model.battery}</li>
-                <li>{model.weight}</li>
+                <li>● {model.storage}</li>
+                <li>● {model.battery}</li>
+                <li>● {model.weight}</li>
               </ul>
             </div>
           ))}

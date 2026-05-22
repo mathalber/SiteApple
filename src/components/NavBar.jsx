@@ -14,7 +14,7 @@ function NavBar() {
         <a href="#cores" className="hover:text-gray-300">
           Cores
         </a>
-        <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full">
+        <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full cursor-pointer">
           Compra
         </button>
       </div>

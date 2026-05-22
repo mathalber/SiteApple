@@ -47,10 +47,10 @@ function Highlights() {
           />
 
           <ul className="space-y-3 text-gray-300">
-            <li>CPU 20% mais rápida</li>
-            <li>GPU 25% mais eficiente</li>
-            <li>Neural Engine com 16 núcleos</li>
-            <li>Ray tracing acelarado por hardware</li>
+            <li>● CPU 20% mais rápida</li>
+            <li>● GPU 25% mais eficiente</li>
+            <li>● Neural Engine com 16 núcleos</li>
+            <li>● Ray tracing acelarado por hardware</li>
           </ul>
         </div>
 
