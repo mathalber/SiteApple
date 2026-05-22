@@ -1,23 +1,25 @@
 import { useState } from "react";
 
 function Colors() {
+  const imageBasePath = import.meta.env.BASE_URL;
+
   const colors = [
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "/img/iphone-blue.jpg",
+      image: `${imageBasePath}img/iphone-blue.jpg`,
       colorClass: "bg-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image: "/img/iphone-silver.jpg",
+      image: `${imageBasePath}img/iphone-silver.jpg`,
       colorClass: "bg-gray-300",
     },
     {
       id: "orange",
       name: "Titânio Laranja",
-      image: "/img/iphone-orange.jpg",
+      image: `${imageBasePath}img/iphone-orange.jpg`,
       colorClass: "bg-orange-500",
     },
   ];

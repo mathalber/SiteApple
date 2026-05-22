@@ -1,4 +1,6 @@
 function Highlights() {
+  const imageBasePath = import.meta.env.BASE_URL;
+
   return (
     <section className="bg-black py-20 px-6" id="design">
       <div className="max-w-7xl mx-auto">
@@ -13,7 +15,7 @@ function Highlights() {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="../../public/img/titanium-design.jpg"
+              src={`${imageBasePath}img/titanium-design.jpg`}
               alt="iphone-titanium"
             />
             <h3 className="font-bold mb-2 text-3xl">Titânio Premium</h3>
@@ -25,7 +27,7 @@ function Highlights() {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="../../public/img/ios-features.jpg"
+              src={`${imageBasePath}img/ios-features.jpg`}
               alt="ios 2026"
             />
             <h3 className="font-bold mb-2 text-3xl">IOS 26</h3>
@@ -42,7 +44,7 @@ function Highlights() {
           </p>
           <img
             className="w-full rounded-2xl mb-4"
-            src="../../public/img/chip-a18-pro.jpg"
+            src={`${imageBasePath}img/chip-a18-pro.jpg`}
             alt="chip a18"
           />
 
