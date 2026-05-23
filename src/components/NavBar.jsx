@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center gap-8">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center gap-4 md:gap-8 text-sm md:text-base overflow-x-auto whitespace-nowrap">
         <a href="#design" className="hover:text-gray-300">
           Design
         </a>
